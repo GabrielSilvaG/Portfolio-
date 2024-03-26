@@ -1,10 +1,10 @@
 {
-  "name": "Gabriel S. Gomes dsadasd",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "nome": "Gabriel S. Gomes",
+  "foto": "https://avatars.githubusercontent.com/u/92490123?s=400&u=e6862fb5ead158795448bece8c2cead1a5397625&v=4",
+  "trabalho": "Desenvolvedor back-end",
+  "localizacao": "São Paulo - SP",
+  "contato": "(11) 97531-8070",
+  "email": "gsg.gabrielsilva96@gmail.com",
   "skills": {
     "hardSkills": [
       {
