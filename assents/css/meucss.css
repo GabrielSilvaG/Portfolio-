@@ -1,0 +1,310 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Alinha tudo que tiver dentro do header no centro */ 
+}
+
+/*Conf. foto fo perfil*/
+.header .foto {
+    width: 200px;  /*Largura */
+    height: 200px;  /*Altura */
+    border-radius: 50%;  /*Faz com que a foto fique arredondada */
+}
+
+/*Conf. Titulo*/
+.titulo {
+    text-align: start; /*Alinha o texto no centro */
+    font-family:'Neue Machina'; /* Essa é uma fonte declarada */
+    margin: 0.25rem;
+}
+
+/*Conf. das informações */
+.informaçoes {
+    display: flex;  /*usar essa linha de código com a 'flex-direction: column' */
+    flex-direction: column;
+    align-items: flex-start; /*Alinha oque tiver na classe a esquerda */
+    width: 100%; /*define a largura do elemento, ou seja da linha de código informações usamos 100% */
+}
+
+.informaçoes p {
+    display: flex; /* ??? */
+    flex-direction: row; /*??? */
+    align-items: center; /*Alinha oque tiver no paragrafo no centro*/
+    margin: .4rem; /*Tira de cima pra baixo dos paragrafos*/
+    font-size: 1.125rem;
+}
+
+/*Essa linha diz que, na frente das informações fique um icone */
+.informacoes p::before { 
+    content: '';
+    display: inline-block; /*Para que eo ícone(coisas) fique na frente da frase */
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain; /*Para ajustar. "ficar bonitinho"*/
+    margin-right: 0.5rem;
+}
+
+.informacoes .funcao::before {
+    background-image: url(/assents/icones/iconeFuncao.svg); /*caminho do icone desejado*/
+}
+.informacoes .localizacao::before {
+    background-image: url(/assents/icones/iconeLocalizacao.svg); /*caminho do icone desejado*/
+}
+.informacoes .contato::before {
+    background-image: url(/assents/icones/iconeContato.svg); /*caminho do icone desejado*/
+}
+.informacoes .email::before {
+    background-image: url(/assents/icones/iconeEmail.svg); /*caminho do icone desejado*/
+}
+
+
+.acordeon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    transition: 0.25s;
+}
+
+.acordeon:hover {
+    background-image: linear-gradient(70deg,  #B22222, #000000); /*deg muda a posução  */
+}
+
+.acordeon .mostrarInf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+.acordeon .mostrarInf h2 {
+margin: 0;
+font-size: 1.5rem;
+text-align: start;
+}
+
+.acordeon .mostrarInf:hover {
+cursor: pointer;
+}
+
+/*Seta do acordeon*/
+.acordeon .mostrarInf::after {
+content: "";
+display: inline-block;
+width: 1.5rem;
+height: 1.5rem;
+background: no-repeat;
+background-size: contain;
+background-image: url("/assents/icones/iconseta.svg");
+transition: 0.250s;
+}
+
+.acordeon.open .mostrarInf::after {
+    transform: rotate(180deg);
+}
+
+.acordeon.open .content {
+    display: block;
+    height: auto;
+    opacity: 1;
+    padding: 0 1rem 1rem 2rem;
+}
+
+.acordeon .content {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out ;
+
+}
+
+
+.linguagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap; /*Parq que deixe um de baixo do outro, caso a tela diminua*/
+    margin: 0;
+    padding: 0;
+    list-style: none; /*Isso tira o estilo padrão da <li>*/
+}
+
+.linguagem li {
+    padding-right: 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.linguagem li::before {
+    content: "";
+    display: inline-block;
+    width: 1.125rem;
+    height: .75rem;
+    margin-right: .25rem;
+    background: no-repeat;
+    background-size: contain;
+    background-image: url("/assents/icones/iconCerto.svg");
+}
+
+
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none; /*Isso tira o estilo padrão da <li>*/
+}
+
+.portfolio li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /*Alinha os itens no início verticalmente*/
+    margin: 1rem 0;
+}
+
+/*Conf dos titulos dos projetos*/
+.portfolio li .titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 0.25rem;
+}
+
+/*Conf dos icones onde esta cada projeto (nesse caso aqui GitHub)*/
+.portfolio li .titulo.github::before {
+    content: "";
+    display: inline-block;
+    width: 1.125rem;
+    height: .75rem;
+    margin-right: .25rem;
+    background: no-repeat;
+    background-size: contain;
+    background-image: url("/assents/icones/iconGitHub.svg");
+}
+
+
+.experiancia {
+display: flex;
+flex-direction: column;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.experiancia li {
+    margin-bottom: 2rem;
+}
+
+.experiancia li .periodo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.25rem;
+}
+
+.experiancia li .periodo::before { 
+content: "";
+display: inline-block;
+width: 1.125rem;
+height: .75rem;
+background-repeat: no-repeat;
+background-size: contain;
+background-image: url("/assents/icones/iconData.svg");
+margin-right: .25rem;
+}
+
+
+.habilidades {
+    display: flex;
+    justify-content: space-between; /* Adicionando espaço entre os elementos */
+
+}
+
+.habilidades .ide,
+.habilidades .pessoal {
+    flex: 0 0 45%; /* Define a largura das seções para 45% */
+}
+
+.habilidades .ide ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.habilidades .ide ul li img  {
+ max-width: 50px;
+ margin: 0 .5rem;
+}
+
+
+.habilidades .pessoal ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.habilidades .pessoal ul li {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+/*Aqui diz que. Quando a tela tiver um max-width: 768px, ou seja dos 600px pra - , vai ser aplicado oque tiver nessa conf de css*/
+@media only screen and (min-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-areas: 
+           "foto titulo"
+           "foto informacoes"
+        ;
+    }
+
+    .header .foto {
+        grid-area: foto;
+        margin: 0 auto;
+    }
+    .header .titulo {
+        grid-area: titulo;
+        text-align: start;
+        max-width: 210px;
+    } 
+
+    .header .informacoes {
+        grid-area: informacoes;
+    } 
+
+
+
+    
+}
+
+
+
+

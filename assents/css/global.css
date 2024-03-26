@@ -1,0 +1,46 @@
+* { /*Isso é ujma configuração global */
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Para declarar uma fonte que não tem no google font, assim tem que ser declarada*/
+@font-face {
+    font-family: "Neue Machina"; /*no comando font-family buscar polo nome que aqui foi definido */
+    src: url('/assents/fontes/machineFonte/NeueMachina-Regular.otf');
+}
+
+
+/*Conf. degrade da página inteira*/
+body, .acordeon.open {
+background-image: linear-gradient(to right, #FF2400, #000000, #B22222 ); /*deg muda a posução  */
+color: #fff;
+}
+
+a { /*Faz com que doeo link "a" seja da cor branca*/
+    text-decoration: none;   
+    color: #fff;
+}
+
+li a:hover{
+    text-decoration: underline;  /*Faz com que o underline do link apareça em todo html*/
+}
+
+p a:hover{
+    text-decoration: underline;  /*Faz com que o underline nos "p" que tenha link apareça em todo html*/
+}
+
+.main {
+    padding: 1rem; /*Faz com que a foto não fique grudada no top */
+    margin: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+}
