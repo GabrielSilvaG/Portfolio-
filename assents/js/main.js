@@ -24,9 +24,12 @@ function atualizarPerfil(profileData) {
 
 function atualizarHabilidades(profileData) {
     const habilidadepessoal = document.getElementById('profile.skills.softSkills')
+    habilidadepessoal.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}`).join('')
+}
 
-    habilidadepessoal.innerHTML = profile.skills.softSkills.map(skill => `<li>${skill}`).join('')
-
+function habilidadesComFerramentas(profileData) {
+    const ferramentas = document.getElementById('profile.skills.hardSkills')
+    ferramentas.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.nome}" title="${skill.nome}"></li>`).join('')
 }
 
 (async () => {
@@ -34,4 +37,5 @@ function atualizarHabilidades(profileData) {
     const profileData = await buscarDadosPerfil()
     atualizarPerfil(profileData)
     atualizarHabilidades(profileData)
+    habilidadesComFerramentas(profileData)
 })()
