@@ -56,7 +56,7 @@ function localTrabalhado(profileData) {
         <li>
         h3 ${experiencia.nome}></h3>
         <p ${experiencia.periodo}></p>
-        <p ${profexperienciaile.descriscao}></p></li>`
+        <p ${experiencia.descriscao}></p></li>`
     }).join('')
 }
 
