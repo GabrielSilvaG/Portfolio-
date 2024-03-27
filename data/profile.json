@@ -26,10 +26,6 @@
       {
         "name": "node.js",
         "logo": "https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/a1fa1a609f3cb75ee2d7e4f6be1394167f07d3d8/assents/icones/iconNodejs.svg?token=AWBUTC3FO3S7ZZGODZCI73DGANC3C"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
