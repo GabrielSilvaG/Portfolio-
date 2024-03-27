@@ -32,10 +32,16 @@ function habilidadesComFerramentas(profileData) {
     ferramentas.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.nome}" title="${skill.nome}"></li>`).join('')
 }
 
+function limguagem(profileData) {
+    const idioma = document.getElementById('profile.linguagem')
+    idioma.innerHTML = profileData.linguagem.map(linguagem => `<li>${linguagem}`).join('')
+}
+
 (async () => {
 
     const profileData = await buscarDadosPerfil()
     atualizarPerfil(profileData)
     atualizarHabilidades(profileData)
     habilidadesComFerramentas(profileData)
+    limguagem(profileData)
 })()
