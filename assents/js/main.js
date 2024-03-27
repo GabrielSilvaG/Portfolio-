@@ -34,7 +34,7 @@ function habilidadesComFerramentas(profileData) {
 
 function limguagem(profileData) {
     const idioma = document.getElementById('profile.linguagem')
-    idioma.innerHTML = profileData.linguagem.map(linguagem => `<li>${linguagem}`).join('')
+    idioma.innerHTML = profileData.linguagem.map(skill => `<li>${skill}`).join('')
 }
 
 (async () => {
@@ -44,4 +44,5 @@ function limguagem(profileData) {
     atualizarHabilidades(profileData)
     habilidadesComFerramentas(profileData)
     limguagem(profileData)
+    
 })()
