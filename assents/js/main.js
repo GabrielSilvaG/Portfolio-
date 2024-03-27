@@ -37,6 +37,22 @@ function atualizarLinguagem(profileData) {
     idiomaLinguagem.innerHTML = profileData.linguagem.map(limguagem => `<li>${limguagem}</li>`).join('')
 }
 
+
+function atualizarportfolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio')
+    portfolio.innerHTML = profileData.portfolio.map(experiencia => {
+        return `
+        <li>
+        <h3 ${experiencia.github ? 'class="github"' : ''}>${experiencia.nome}</h3>
+        <a href="${experiencia.url}" target="_blank">${experiencia.url}</a>
+        </li>
+        `
+    })
+}
+
+
+
+
 (async () => {
 
     const profileData = await buscarDadosPerfil()
@@ -44,5 +60,6 @@ function atualizarLinguagem(profileData) {
     atualizarHabilidades(profileData)
     habilidadesComFerramentas(profileData)
     atualizarLinguagem(profileData)
+    atualizarportfolio(profileData)
 
 })()
