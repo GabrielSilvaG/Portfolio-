@@ -40,16 +40,25 @@ function atualizarLinguagem(profileData) {
 
 function atualizarportfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(experiencia => {
+    portfolio.innerHTML = profileData.portfolio.map(projetosECursos => {
         return `
         <li>
-        <h3 ${experiencia.github ? 'class="github"' : ''}>${experiencia.nome}</h3>
-        <a href="${experiencia.url}" target="_blank">${experiencia.url}</a>
+        <h3 ${projetosECursos.github ? 'class="github"' : ''}>${projetosECursos.nome}</h3>
+        <a href="${projetosECursos.url}" target="_blank">${projetosECursos.url}</a>
         </li>`
     }).join('')
 }
 
-
+function localTrabalhado(profileData) {
+    const experienciaArea = document.getElementById('profile.experiancia')
+    experienciaArea.innerHTML = profileData.experienciaArea.map(experiencia => {
+        return `
+        <li>
+        h3 ${experiencia.nome}></h3>
+        <p ${experiencia.periodo}></p>
+        <p ${profexperienciaile.descriscao}></p></li>`
+    }).join('')
+}
 
 
 (async () => {
@@ -60,5 +69,6 @@ function atualizarportfolio(profileData) {
     habilidadesComFerramentas(profileData)
     atualizarLinguagem(profileData)
     atualizarportfolio(profileData)
+    localTrabalhado(profileData)
 
 })()
