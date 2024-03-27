@@ -42,13 +42,13 @@
   ],
   "portfolio": [
     {
-      "nome": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "nome": "Calculo de juros e desconto",
+      "url": "https://github.com/GabrielSilvaG/Vendas-com-desconto-e-juros",
       "github": true
     },
     {
-      "nome": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "nome": "Curso Manipulando a D.O.M. com Javascript",
+      "url": "https://hermes.dio.me/certificates/cover/AB8JUEL2.jpg",
       "github": true
     }
   ],
