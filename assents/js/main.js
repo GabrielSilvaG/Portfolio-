@@ -50,12 +50,12 @@ function atualizarportfolio(profileData) {
 }
 
 function locaisTrabalhado(profileData) {
-    const experienciaprofissional = document.getElementById('profile.experienciaProfissional')
-    experienciaprofissional.innerHTML = profileData.experienciaprofissional.map(experiencia => {
+    const experienciaTrabalho = document.getElementById('profile.experienciaProfissional')
+    experienciaTrabalho.innerHTML = profileData.experienciaProfissional.map(experiencia => {
         return `
             <li>
-             h3 class="title">${experiencia.nome}</h3>
-             <p>${experiencia.periodo}</p>
+             <h3 class="title">${experiencia.nome}</h3>
+             <p class="periodo">${experiencia.periodo}</p>
              <p>${experiencia.descriscao}</p>
             </li>
         `
