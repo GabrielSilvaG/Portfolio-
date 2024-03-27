@@ -49,14 +49,16 @@ function atualizarportfolio(profileData) {
     }).join('')
 }
 
-function localTrabalhado(profileData) {
-    const experienciaArea = document.getElementById('profile.experiancia')
-    experienciaArea.innerHTML = profileData.experienciaArea.map(experiencia => {
+function locaisTrabalhado(profileData) {
+    const experienciaprofissional = document.getElementById('profile.experienciaProfissional')
+    experienciaprofissional.innerHTML = profileData.experienciaprofissional.map(experiencia => {
         return `
-        <li>
-        h3 ${experiencia.nome}></h3>
-        <p ${experiencia.periodo}></p>
-        <p ${experiencia.descriscao}></p></li>`
+            <li>
+             h3 class="title">${experiencia.nome}</h3>
+             <p>${experiencia.periodo}</p>
+             <p>${experiencia.descriscao}</p>
+            </li>
+        `
     }).join('')
 }
 
@@ -69,6 +71,6 @@ function localTrabalhado(profileData) {
     habilidadesComFerramentas(profileData)
     atualizarLinguagem(profileData)
     atualizarportfolio(profileData)
-    localTrabalhado(profileData)
+    locaisTrabalhado(profileData)
 
 })()
