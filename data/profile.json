@@ -50,7 +50,14 @@
       "nome": "Curso Manipulando a D.O.M. com Javascript",
       "url": "https://hermes.dio.me/certificates/cover/AB8JUEL2.jpg",
       "github": true
+    },
+    {
+      "nome": "Calcular IMC + aviso ",
+      "url": "https://github.com/GabrielSilvaG/Calcular-IMC",
+      "github": true
     }
+    
+
   ],
   "experienciaProfissional": [
     {
