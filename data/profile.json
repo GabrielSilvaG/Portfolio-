@@ -42,6 +42,11 @@
   ],
   "portfolio": [
     {
+      "nome": "Pokedex",
+      "url": "https://github.com/GabrielSilvaG/Pokedex",
+      "github": true
+    },
+    {
       "nome": "Calculo de juros e desconto",
       "url": "https://github.com/GabrielSilvaG/Vendas-com-desconto-e-juros",
       "github": true
@@ -56,6 +61,7 @@
       "url": "https://github.com/GabrielSilvaG/Calcular-IMC",
       "github": true
     }
+    
     
 
   ],
