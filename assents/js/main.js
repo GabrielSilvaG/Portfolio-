@@ -24,7 +24,7 @@ function atualizarPerfil(profileData) {
 
 function atualizarHabilidades(profileData) {
     const habilidadepessoal = document.getElementById('profile.skills.softSkills')
-    habilidadepessoal.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}`).join('')
+    habilidadepessoal.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
 
 function habilidadesComFerramentas(profileData) {
@@ -32,9 +32,9 @@ function habilidadesComFerramentas(profileData) {
     ferramentas.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.nome}" title="${skill.nome}"></li>`).join('')
 }
 
-function limguagem(profileData) {
+function atualizarLinguagem(profileData) {
     const idioma = document.getElementById('profile.linguagem')
-    idioma.innerHTML = profileData.linguagem.map(skill => `<li>${skill}`).join('')
+    idioma.innerHTML = profileData.linguagem.map(limguagem => `<li>${limguagem}</li>`).join('')
 }
 
 (async () => {
@@ -43,6 +43,6 @@ function limguagem(profileData) {
     atualizarPerfil(profileData)
     atualizarHabilidades(profileData)
     habilidadesComFerramentas(profileData)
-    limguagem(profileData)
-    
+    atualizarLinguagem(profileData)
+
 })()
