@@ -42,12 +42,17 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Manipulando a D.O.M. com Javascript",
+      "url": "https://hermes.dio.me/certificates/cover/AB8JUEL2.jpg",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "name": "Conceitos Avançados em JavaScript",
+      "url": "https://hermes.dio.me/certificates/cover/WARL4RJO.jpg",
+      "github": true
+    },
+    {
+      "name": "Pokedex",
       "url": "https://github.com/RenanJPaula/js-developer-portfolio",
       "github": true
     }
