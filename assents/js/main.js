@@ -45,9 +45,8 @@ function atualizarportfolio(profileData) {
         <li>
         <h3 ${experiencia.github ? 'class="github"' : ''}>${experiencia.nome}</h3>
         <a href="${experiencia.url}" target="_blank">${experiencia.url}</a>
-        </li>
-        `
-    })
+        </li>`
+    }).join('')
 }
 
 
