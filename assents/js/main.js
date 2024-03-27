@@ -33,7 +33,7 @@ function habilidadesComFerramentas(profileData) {
 }
 
 function atualizarLinguagem(profileData) {
-    const idiomaLinguagem = document.getElementById('profile.linguagem')
+    const idiomaLinguagem = document.getElementById('profile.idioma')
     idiomaLinguagem.innerHTML = profileData.linguagem.map(limguagem => `<li>${limguagem}</li>`).join('')
 }
 
