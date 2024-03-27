@@ -8,24 +8,24 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "nome": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/master/data/imgs/js.png?token=GHSAT0AAAAAACOYBXIIYPBYNMSF3BA5P3NSZQDISXQ"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "nome": "GitHub",
+        "logo": "https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/master/data/imgs/github.png?token=GHSAT0AAAAAACOYBXII77QHJ54F3B7BGCAMZQDIUNA"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "nome": "HTML",
+        "logo": "https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/a1fa1a609f3cb75ee2d7e4f6be1394167f07d3d8/assents/icones/iconHtml.svg?token=AWBUTC7B2D7QO3OY7NT6WXTGANCWK"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "nome": "CSS",
+        "logo": "https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/a1fa1a609f3cb75ee2d7e4f6be1394167f07d3d8/assents/icones/iconCss.svg?token=AWBUTC5BZVSMN6FVRXGGBILGANCZS"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "node.js",
+        "logo": "https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/a1fa1a609f3cb75ee2d7e4f6be1394167f07d3d8/assents/icones/iconNodejs.svg?token=AWBUTC3FO3S7ZZGODZCI73DGANC3C"
       },
       {
         "name": "Postgresql",
@@ -33,11 +33,12 @@
       }
     ],
     "softSkills": [
-      "Empatia",
-      "Liderança",
+      "Focado",
+      "Esforçado",
       "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
+      "Facilidade de cominicação",
+      "Organização",
+      "Curioso"
     ]
   },
   "languages": [
