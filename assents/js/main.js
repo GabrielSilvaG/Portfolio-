@@ -1,29 +1,37 @@
-function atualizarPerfil(perfilData) {
-    const foto = document.getElementById('perfil.foto')
-    foto.src = perfilData.foto
-    foto.alt = perfilData.name
+function atualizarPerfil(profileData) {
+    const foto = document.getElementById('profile.foto')
+    foto.src = profileData.foto
+    foto.alt = profileData.name
 
 
-    const nome = document.getElementById('perfil.nome')
-    nome.innerText = perfilData.nome
+    const nome = document.getElementById('profile.nome')
+    nome.innerText = profileData.nome
 
-    const trabalho = document.getElementById('perfil.trabalho')
-    trabalho.innerText = perfilData.trabalho
+    const trabalho = document.getElementById('profile.trabalho')
+    trabalho.innerText = profileData.trabalho
 
-    const localizacao = document.getElementById('perfil.localizacao')
-    localizacao.innerText = perfilData.localizacao
+    const localizacao = document.getElementById('profile.localizacao')
+    localizacao.innerText = profileData.localizacao
 
-    const contato = document.getElementById('perfil.contato')
-    contato.innerText = perfilData.contato
-    contato.href = `tel:${perfilData.contato}`
+    const contato = document.getElementById('profile.contato')
+    contato.innerText = profileData.contato
+    contato.href = `tel:${profileData.contato}`
 
-    const email = document.getElementById('perfil.email')
-    email.innerText = perfilData.email
-    email.href = `mailto:${perfilData.email}`
+    const email = document.getElementById('profile.email')
+    email.innerText = profileData.email
+    email.href = `mailto:${profileData.email}`
 }
 
-    (async () => {
+function atualizarHabilidades(profileData) {
+    const habilidadepessoal = document.getElementById('profile.skills.softSkills')
 
-        const perfilData = await buscarDadosPerfil()
-        atualizarPerfil(perfilData)
-    })()
+    habilidadepessoal.innerHTML = profile.skills.softSkills.map(skill => `<li>${skill}`).join('')
+
+}
+
+(async () => {
+
+    const profileData = await buscarDadosPerfil()
+    atualizarPerfil(profileData)
+    atualizarHabilidades(profileData)
+})()
