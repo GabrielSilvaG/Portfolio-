@@ -42,36 +42,36 @@
   ],
   "portfolio": [
     {
-      "name": "Manipulando a D.O.M. com Javascript",
+      "nome": "Manipulando a D.O.M. com Javascript",
       "url": "https://hermes.dio.me/certificates/cover/AB8JUEL2.jpg",
       "github": true
     },
     {
-      "name": "Conceitos Avançados em JavaScript",
+      "nome": "Conceitos Avançados em JavaScript",
       "url": "https://hermes.dio.me/certificates/cover/WARL4RJO.jpg",
       "github": true
     },
     {
-      "name": "Pokedex",
+      "nome": "Pokedex",
       "url": "https://github.com/RenanJPaula/js-developer-portfolio",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "nome": "Arquiteto de software / S3 BANK",
+      "periodo": "2022 - até o momento",
+      "descricao": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "nome": "Software Engineering Lead / DIO",
+      "periodo": "2021 - 2022",
+      "descricao": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "nome": "CEO / Brain Machine",
+      "periodo": "2016 - 2021",
+      "descricao": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
     }
   ]
 }
