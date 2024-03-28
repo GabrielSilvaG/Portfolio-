@@ -46,16 +46,16 @@
 }
 
 .informacoes .funcao::before {
-    background-image: url(/assents/icones/iconeFuncao.svg); /*caminho do icone desejado*/
+    background-image: url(assents//icones/iconeFuncao.svg); /*caminho do icone desejado*/
 }
 .informacoes .localizacao::before {
-    background-image: url(/assents/icones/iconeLocalizacao.svg); /*caminho do icone desejado*/
+    background-image: url(assents//icones/iconeLocalizacao.svg); /*caminho do icone desejado*/
 }
 .informacoes .contato::before {
-    background-image: url(/assents/icones/iconeContato.svg); /*caminho do icone desejado*/
+    background-image: url(assents//icones/iconeContato.svg); /*caminho do icone desejado*/
 }
 .informacoes .email::before {
-    background-image: url(/assents/icones/iconeEmail.svg); /*caminho do icone desejado*/
+    background-image: url(assents//icones/iconeEmail.svg); /*caminho do icone desejado*/
 }
 
 
@@ -103,7 +103,7 @@ width: 1.5rem;
 height: 1.5rem;
 background: no-repeat;
 background-size: contain;
-background-image: url("/assents/icones/iconseta.svg");
+background-image: url("assents//icones/iconseta.svg");
 transition: 0.250s;
 }
 
@@ -151,7 +151,7 @@ transition: 0.250s;
     margin-right: .25rem;
     background: no-repeat;
     background-size: contain;
-    background-image: url("/assents/icones/iconCerto.svg");
+    background-image: url("assents//icones/iconCerto.svg");
 }
 
 
@@ -192,7 +192,7 @@ transition: 0.250s;
     margin-right: .25rem;
     background: no-repeat;
     background-size: contain;
-    background-image: url("/assents/icones/iconGitHub.svg");
+    background-image: url("assents//icones/iconGitHub.svg");
 }
 
 
@@ -222,7 +222,7 @@ width: 1.125rem;
 height: .75rem;
 background-repeat: no-repeat;
 background-size: contain;
-background-image: url("/assents/icones/iconData.svg");
+background-image: url("assents//icones/iconData.svg");
 margin-right: .25rem;
 }
 
