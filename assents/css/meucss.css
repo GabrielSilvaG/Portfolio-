@@ -222,7 +222,7 @@ width: 1.125rem;
 height: .75rem;
 background-repeat: no-repeat;
 background-size: contain;
-background-image: url("assents/icones/iconData.svg");
+background-image: url(https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/e7fd2272267f2785d2209ad7b48f40721e101797/assents/icones/iconData.svg);
 margin-right: .25rem;
 }
 
