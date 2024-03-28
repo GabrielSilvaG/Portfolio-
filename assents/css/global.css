@@ -6,7 +6,7 @@
 /* Para declarar uma fonte que não tem no google font, assim tem que ser declarada*/
 @font-face {
     font-family: "Neue Machina"; /*no comando font-family buscar polo nome que aqui foi definido */
-    src: ('/assents/fontes/machineFonte/NeueMachina-Regular.otf');
+    src: ('//assentsfontes/machineFonte/NeueMachina-Regular.otf');
 }
 
 
