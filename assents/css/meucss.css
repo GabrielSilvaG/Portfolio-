@@ -103,7 +103,7 @@ width: 1.5rem;
 height: 1.5rem;
 background: no-repeat;
 background-size: contain;
-background-image: url("assents/icones/iconseta.svg");
+background-image: url(https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/1d4967c9b3bb388a407588845fa370d3f14489ae/assents/icones/iconseta.svg);
 transition: 0.250s;
 }
 
