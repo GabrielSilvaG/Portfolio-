@@ -184,7 +184,7 @@ transition: 0.250s;
 }
 
 /*Conf dos icones onde esta cada projeto (nesse caso aqui GitHub)*/
-.portfolio li .titulo.github::before {
+.portfolio li .github::before {
     content: "";
     display: inline-block;
     width: 1.125rem;
