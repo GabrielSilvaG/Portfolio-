@@ -3,7 +3,6 @@ function atualizarPerfil(profileData) {
     foto.src = profileData.foto
     foto.alt = profileData.name
 
-
     const nome = document.getElementById('profile.nome')
     nome.innerText = profileData.nome
 
@@ -20,6 +19,10 @@ function atualizarPerfil(profileData) {
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
+
+    const curriculo = document.getElementById('profile.curriculo')
+    curriculo.innerText = profileData.curriculo
+    curriculo.href = `${profileData.curriculo}`
 }
 
 function atualizarHabilidades(profileData) {
