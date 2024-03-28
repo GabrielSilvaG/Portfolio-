@@ -12,7 +12,7 @@
 
 /*Conf. degrade da página inteira*/
 body, .acordeon.open {
-background-image: linear-gradient(to right, #35374B, #344955, #50727B, #78A083 ); /*deg muda a posução  */
+background-image: linear-gradient(to right, #040D12, #183D3D, #5C8374, #93B1A6 ); /*deg muda a posição  */
 color: #fff;
 }
 
