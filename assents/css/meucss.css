@@ -49,13 +49,13 @@
     background-image: url(https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/44b39b93b3a194bb9687546460bef08998aa9966/assents/icones/iconeFuncao.svg); /*caminho do icone desejado*/
 }
 .informacoes .localizacao::before {
-    background-image: url(assents/icones/iconeLocalizacao.svg); /*caminho do icone desejado*/
+    background-image: url(https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/728e15b7b792b2dc711fbb1ad3590150d69c3e9f/assents/icones/iconeLocalizacao.svg); /*caminho do icone desejado*/
 }
 .informacoes .contato::before {
-    background-image: url(assents/icones/iconeContato.svg); /*caminho do icone desejado*/
+    background-image: url(https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/728e15b7b792b2dc711fbb1ad3590150d69c3e9f/assents/icones/iconeContato.svg); /*caminho do icone desejado*/
 }
 .informacoes .email::before {
-    background-image: url(assents/icones/iconeEmail.svg); /*caminho do icone desejado*/
+    background-image: url(https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/728e15b7b792b2dc711fbb1ad3590150d69c3e9f/assents/icones/iconeContato.svg); /*caminho do icone desejado*/
 }
 
 
