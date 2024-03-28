@@ -20,9 +20,6 @@ function atualizarPerfil(profileData) {
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
 
-    const curriculo = document.getElementById('profile.curriculo')
-    curriculo.innerText = profileData.curriculo
-    curriculo.href = `${profileData.curriculo}`
 }
 
 function atualizarHabilidades(profileData) {
