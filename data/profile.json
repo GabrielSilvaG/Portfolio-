@@ -33,10 +33,10 @@
     "softSkills": [
       "Focado",
       "Esforçado",
+      "Organizado",
+      "Curioso",
       "Trabalho em equipe",
-      "Facilidade de cominicação",
-      "Organização",
-      "Curioso"
+      "Facilidade de comunicação" 
     ]
   },
   "linguagem": [
@@ -44,24 +44,29 @@
   ],
   "portfolio": [
     {
+      "nome": "Formação JavaScript Developer",
+      "url": "https://hermes.dio.me/certificates/cover/XQA54QII.jpg",
+      "github": false
+    },
+    {
       "nome": "Pokedex",
-      "url": "https://github.com/GabrielSilvaG/Pokedex",
+      "url": "https://gabrielsilvag.github.io/Pokedex/",
       "github": true
     },
     {
-      "nome": "Calculo de juros e desconto",
-      "url": "https://github.com/GabrielSilvaG/Vendas-com-desconto-e-juros",
+      "nome": "Busca-usuario-Github",
+      "url": "https://gabrielsilvag.github.io/Busca-usuario-Github/",
       "github": true
     },
     {
       "nome": "Calcular IMC + aviso ",
-      "url": "https://github.com/GabrielSilvaG/Calcular-IMC",
+      "url": "https://gabrielsilvag.github.io/Calcular-IMC/",
       "github": true
     },
     {
-      "nome": "Curso Manipulando a D.O.M. com Javascript",
-      "url": "https://hermes.dio.me/certificates/cover/AB8JUEL2.jpg",
-      "github": false
+      "nome": "Consumo-etanol-ou-gasolina",
+      "url": "https://gabrielsilvag.github.io/Consumo-etanol-ou-gasolina/",
+      "github": true
     }
     
     
@@ -69,7 +74,7 @@
   ],
   "experienciaProfissional": [
     {
-      "nome": "Auxiliar administrativo / Ramos Produtos de Limpeza",
+      "nome": "Auxiliar Administrativo - Sênior / Ramos Produtos de Limpeza LTDA",
       "periodo": "2015 - 2024",
       "descriscao": "Gerenciamento de agendas, atendimento telefônico, organização de arquivos e documentos, coordenação de correspondências e e-mails, e realização de tarefas administrativas diversas para garantir a eficiência e fluidez das operações cotidianas da empresa."
     },
