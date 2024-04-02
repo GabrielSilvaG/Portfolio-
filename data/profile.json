@@ -45,6 +45,11 @@
   "portfolio": [
     {
       "nome": "Formação JavaScript Developer",
+      "url": "GabrielSilvaG/Portfolio-/data/imgs/Diploma Graduacao.pdf",
+      "github": false
+    },
+    {
+      "nome": "Formação JavaScript Developer",
       "url": "https://hermes.dio.me/certificates/cover/XQA54QII.jpg",
       "github": false
     },
