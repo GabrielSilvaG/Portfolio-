@@ -45,23 +45,18 @@
   "portfolio": [
     {
       "nome": "Pokedex",
-      "url": "https://github.com/GabrielSilvaG/Pokedex",
-      "github": true
-    },
-    {
-      "nome": "Calculo de juros e desconto",
-      "url": "https://github.com/GabrielSilvaG/Vendas-com-desconto-e-juros",
+      "url": "https://gabrielsilvag.github.io/Pokedex/",
       "github": true
     },
     {
       "nome": "Calcular IMC + aviso ",
-      "url": "https://github.com/GabrielSilvaG/Calcular-IMC",
+      "url": "https://gabrielsilvag.github.io/Calcular-IMC/",
       "github": true
     },
     {
-      "nome": "Curso Manipulando a D.O.M. com Javascript",
-      "url": "https://hermes.dio.me/certificates/cover/AB8JUEL2.jpg",
-      "github": false
+      "nome": "Busca-usuario-Github",
+      "url": "https://gabrielsilvag.github.io/Busca-usuario-Github/",
+      "github": true
     }
     
     
