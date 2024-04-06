@@ -44,6 +44,11 @@
   ],
   "portfolio": [
     {
+      "nome": "Bacharel em Tecnologia da Informação",
+      "url": "https://acesse.dev/Diploma",
+      "github": false
+    },
+    {
       "nome": "Formação JavaScript Developer",
       "url": "https://hermes.dio.me/certificates/cover/XQA54QII.jpg",
       "github": false
