@@ -57,6 +57,9 @@
 .informacoes .email::before {
     background-image: url(https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/728e15b7b792b2dc711fbb1ad3590150d69c3e9f/assents/icones/iconeEmail.svg); /*caminho do icone desejado*/
 }
+.informacoes .perfilGithub::before {
+    background-image: url(https://raw.githubusercontent.com/GabrielSilvaG/Portfolio-/acf0e81da19560e7daa6def320c5f3c3e06a4a44/assents/icones/iconGitHub.svg); /*caminho do icone desejado*/
+}
 
 
 .acordeon {
