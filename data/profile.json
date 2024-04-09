@@ -59,6 +59,11 @@
       "github": true
     },
     {
+      "nome": "Relógio digital",
+      "url": "https://gabrielsilvag.github.io/relogio-digital/",
+      "github": true
+    },
+    {
       "nome": "Busca-usuario-Github",
       "url": "https://gabrielsilvag.github.io/Busca-usuario-Github/",
       "github": true
@@ -82,11 +87,6 @@
       "nome": "Auxiliar Administrativo - Sênior / Ramos Produtos de Limpeza LTDA",
       "periodo": "2015 - 2024",
       "descriscao": "Gerenciamento de agendas, atendimento telefônico, organização de arquivos e documentos, coordenação de correspondências e e-mails, e realização de tarefas administrativas diversas para garantir a eficiência e fluidez das operações cotidianas da empresa."
-    },
-    {
-      "nome": "Rummo",
-      "periodo": "12/2013 - 06/2014",
-      "descriscao": ""
     }
  
   ]
