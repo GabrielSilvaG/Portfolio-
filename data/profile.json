@@ -36,18 +36,14 @@
       "Organizado",
       "Curioso",
       "Trabalho em equipe",
-      "Facilidade de comunicação" 
+      "Facilidade de comunicação",
+      "Digitação"
     ]
   },
   "linguagem": [
     "Português BR"
   ],
   "portfolio": [
-    {
-      "nome": "Bacharel em Tecnologia da Informação",
-      "url": "https://abrir.link/SiBDB",
-      "github": false
-    },
     {
       "nome": "Formação JavaScript Developer",
       "url": "https://hermes.dio.me/certificates/cover/XQA54QII.jpg",
