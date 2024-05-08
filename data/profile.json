@@ -46,11 +46,6 @@
   ],
   "portfolio": [
     {
-      "nome": "Bacharel em Tecnologia da Informação",
-      "url": "https://acesse.dev/Diploma",
-      "github": false
-    },
-    {
       "nome": "Formação JavaScript Developer",
       "url": "https://hermes.dio.me/certificates/cover/XQA54QII.jpg",
       "github": false
@@ -58,6 +53,11 @@
     {
       "nome": "Pokedex",
       "url": "https://gabrielsilvag.github.io/Pokedex/",
+      "github": true
+    },
+    {
+      "nome": "Relógio digital",
+      "url": "https://gabrielsilvag.github.io/relogio-digital/",
       "github": true
     },
     {
@@ -86,9 +86,9 @@
       "descriscao": "Gerenciamento de agendas, atendimento telefônico, organização de arquivos e documentos, coordenação de correspondências e e-mails, e realização de tarefas administrativas diversas para garantir a eficiência e fluidez das operações cotidianas da empresa."
     },
     {
-      "nome": "Rummo",
-      "periodo": "12/2013 - 06/2014",
-      "descriscao": ""
+      "nome": "Operador de mercado / Rummo serviços temporários",
+      "periodo": "12/2013 – 09/2014",
+      "descriscao": "Principais atividades: Realizava organização e devolução de itens às prateleiras, orientação aos clientes."
     }
  
   ]
