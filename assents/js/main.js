@@ -13,17 +13,18 @@ function atualizarPerfil(profileData) {
     localizacao.innerText = profileData.localizacao; // texto que mostra minha localização
 
     const contato = document.getElementById('profile.contato');
-    contato.innerText = profileData.contato; // Texto que aparece no portfolio, que clikando aparece o contato
-    contato.href = `tel:${profileData.contato}`
+    contato.innerText = "(11) 97531-8070"; // Texto que aparece no portfolio, que clikando aparece o contato
+    contato.href = `https://wa.me/${profileData.contato}`;
+    contato.target ="_blank";
 
     const email = document.getElementById('profile.email');
     email.innerText = profileData.email;
-    email.href = `mailto:${profileData.email}`
+    email.href = `mailto:${profileData.email}`;
 
     const perfilGithub = document.getElementById('profile.perfilGithub');
     perfilGithub.innerText = "GitHub"; // Texto que aparece no portfolio, que clikando vai para o perfil 
     perfilGithub.href = `${profileData.meuGithub}`;
-    perfilGithub.target="_blank"
+    perfilGithub.target="_blank";
     
 
     
