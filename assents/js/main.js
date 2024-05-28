@@ -1,24 +1,34 @@
 function atualizarPerfil(profileData) {
-    const foto = document.getElementById('profile.foto')
+    const foto = document.getElementById('profile.foto');
     foto.src = profileData.foto
     foto.alt = profileData.name
 
-    const nome = document.getElementById('profile.nome')
-    nome.innerText = profileData.nome
+    const nome = document.getElementById('profile.nome');
+    nome.innerText = profileData.nome;
 
-    const trabalho = document.getElementById('profile.trabalho')
-    trabalho.innerText = profileData.trabalho
+    const trabalho = document.getElementById('profile.trabalho');
+    trabalho.innerText = profileData.trabalho; // texto que mostra minha função profissional 
 
-    const localizacao = document.getElementById('profile.localizacao')
-    localizacao.innerText = profileData.localizacao
+    const localizacao = document.getElementById('profile.localizacao');
+    localizacao.innerText = profileData.localizacao; // texto que mostra minha localização
 
-    const contato = document.getElementById('profile.contato')
-    contato.innerText = profileData.contato
+    const contato = document.getElementById('profile.contato');
+    contato.innerText = profileData.contato; // Texto que aparece no portfolio, que clikando aparece o contato
     contato.href = `tel:${profileData.contato}`
 
-    const email = document.getElementById('profile.email')
-    email.innerText = profileData.email
+    const email = document.getElementById('profile.email');
+    email.innerText = profileData.email;
     email.href = `mailto:${profileData.email}`
+
+    const perfilGithub = document.getElementById('profile.perfilGithub');
+    perfilGithub.innerText = "GitHub"; // Texto que aparece no portfolio, que clikando vai para o perfil 
+    perfilGithub.href = `${profileData.meuGithub}`;
+    perfilGithub.target="_blank"
+    
+
+    
+    
+
 
 }
 
