@@ -51,6 +51,11 @@
   ],
   "portfolio": [
     {
+      "nome": "Formação Lógica de Programação",
+      "url": "https://hermes.dio.me/certificates/2TQF3ZV1.pdf",
+      "github": false
+    },
+    {
       "nome": "Formação JavaScript Developer",
       "url": "https://hermes.dio.me/certificates/cover/XQA54QII.jpg",
       "github": false
