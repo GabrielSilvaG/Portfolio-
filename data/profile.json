@@ -12,11 +12,11 @@
     "hardSkills": [
       {
         "nome": "JavaScript",
-        "logo": "GabrielSilvaG/Portfolio-/data/imgs/js.png"
+        "logo": "data/imgs/js.png"
       },
       {
         "nome": "GitHub",
-        "logo": "GabrielSilvaG/Portfolio-/data/imgs/github.png"
+        "logo": "data/imgs/github.png"
       },
       {
         "nome": "Git",
